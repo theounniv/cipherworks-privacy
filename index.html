@@ -1,1 +1,133 @@
 # cipherworks-privacy
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Politique de confidentialité — CipherWorks</title>
+  <style>
+    :root { color-scheme: light; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.6;
+      color: #111;
+    }
+    h1, h2 { line-height: 1.2; }
+    ul { padding-left: 20px; }
+    .muted { color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Politique de confidentialité — CipherWorks</h1>
+  <p class="muted">Dernière mise à jour : 31/12/2025</p>
+
+  <h2>1. Présentation</h2>
+  <p>
+    CipherWorks est une application de sécurité locale (chiffrement/déchiffrement
+    de fichiers, filigrane d’images, coffre de mots de passe, codes TOTP,
+    scan réseau local, veille de sécurité). L’application fonctionne
+    principalement sur l’appareil, sans serveur de stockage de données utilisateur.
+  </p>
+
+  <h2>2. Responsable du traitement</h2>
+  <p>
+    Éditeur : Theo Borel<br />
+    Contact : <a href="mailto:borel.theo@hotmail.com">borel.theo@hotmail.com</a>
+  </p>
+
+  <h2>3. Données traitées localement</h2>
+  <p>Les données suivantes sont traitées et stockées localement sur l’appareil :</p>
+  <ul>
+    <li><strong>Fichiers sélectionnés</strong> pour chiffrement/déchiffrement (aucun envoi réseau).</li>
+    <li><strong>Images de la galerie</strong> utilisées pour le filigrane (traitement et sauvegarde locale).</li>
+    <li><strong>Coffre</strong> : libellé, identifiant, mot de passe, URL, date de création.</li>
+    <li><strong>TOTP</strong> : émetteur, compte, secret, paramètres (période, chiffres).</li>
+    <li><strong>Signalements</strong> : catégorie, détails, email optionnel.</li>
+    <li><strong>Paramètres</strong> : état de l’onboarding, essais gratuits, statut d’abonnement,
+      préférences d’alertes, cache de scan réseau.</li>
+  </ul>
+  <p>
+    Ces données ne sont pas transmises à un serveur applicatif de l’éditeur.
+  </p>
+
+  <h2>4. Données techniques (scan réseau local)</h2>
+  <p>
+    Pour le scan réseau, l’application analyse le réseau local et peut afficher :
+    IP locale, ports ouverts détectés, adresse MAC (si disponible), type d’appareil estimé.
+    Ces informations restent sur l’appareil et sont utilisées pour l’affichage et le cache local.
+  </p>
+
+  <h2>5. Connexions réseau et services tiers</h2>
+  <ul>
+    <li>
+      <strong>Veille sécurité (flux publics RSS)</strong> : l’app récupère des flux
+      CERT-FR et CISA pour afficher des alertes. Ces serveurs peuvent recevoir des
+      informations techniques standard (adresse IP, en-têtes HTTP).
+      Sources :
+      <a href="https://www.cert.ssi.gouv.fr/alerte/feed/">CERT-FR Alertes</a>,
+      <a href="https://www.cert.ssi.gouv.fr/avis/feed/">CERT-FR Avis</a>,
+      <a href="https://www.cert.ssi.gouv.fr/actualites/feed/">CERT-FR Actus</a>,
+      <a href="https://www.cisa.gov/sites/default/files/feeds/alerts.xml">CISA Alerts</a>,
+      <a href="https://www.cisa.gov/sites/default/files/feeds/ics-advisories.xml">CISA ICS</a>.
+    </li>
+    <li>
+      <strong>Achats intégrés</strong> : les achats sont gérés par Google Play (Android)
+      ou l’App Store (iOS). L’éditeur ne reçoit pas vos données de paiement ; l’application
+      reçoit uniquement l’état d’achat pour débloquer les fonctionnalités.
+    </li>
+  </ul>
+
+  <h2>6. Autorisations</h2>
+  <ul>
+    <li><strong>Stockage / Photos</strong> : sélection et sauvegarde de fichiers et d’images.</li>
+    <li><strong>Caméra</strong> : scan de QR TOTP.</li>
+    <li><strong>Localisation (Android)</strong> : requise par le système pour accéder aux infos Wi‑Fi
+      lors du scan réseau ; aucune position GPS n’est utilisée ni stockée.</li>
+    <li><strong>Notifications</strong> : alertes locales pour la veille sécurité et le scan réseau.</li>
+    <li><strong>Réseau</strong> : récupération des flux publics et gestion des achats intégrés.</li>
+  </ul>
+
+  <h2>7. Partage de données</h2>
+  <p>
+    Aucune donnée utilisateur n’est vendue ni partagée à des fins publicitaires.
+    Les seuls tiers impliqués sont :
+  </p>
+  <ul>
+    <li>les fournisseurs de flux publics (CERT-FR, CISA) lors des requêtes HTTP,</li>
+    <li>les stores (Google Play / App Store) pour les achats intégrés.</li>
+  </ul>
+
+  <h2>8. Conservation et suppression</h2>
+  <p>
+    Les données sont conservées localement tant que vous ne les supprimez pas.
+    Vous pouvez supprimer vos entrées (coffre, TOTP, signalements) depuis l’app,
+    ou supprimer toutes les données en désinstallant l’application ou en effaçant ses données.
+  </p>
+
+  <h2>9. Sécurité</h2>
+  <p>
+    Les opérations de chiffrement, filigrane, coffre et TOTP sont effectuées localement.
+    Nous vous recommandons de protéger votre appareil (code, biométrie) pour sécuriser
+    l’accès aux données.
+  </p>
+
+  <h2>10. Enfants</h2>
+  <p>
+    L’application n’est pas destinée aux enfants de moins de 13 ans et ne collecte
+    pas volontairement de données les concernant.
+  </p>
+
+  <h2>11. Modifications</h2>
+  <p>
+    Cette politique peut être mise à jour. La date de dernière mise à jour est indiquée en haut.
+  </p>
+
+  <h2>12. Contact</h2>
+  <p>
+    Pour toute question : <a href="mailto:borel.theo@hotmail.com">borel.theo@hotmail.com</a>
+  </p>
+</body>
+</html>
